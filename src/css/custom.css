@@ -140,21 +140,12 @@ header h1 span.ph {
   text-indent: 0;
 }
 
-.theme-doc-markdown{
-	display: -webkit-flex; /* Safari */
-  	display: flex;
-	flex-flow: column;
+/*Add Overview caption*/
+.context:empty:before { 
+content: "Overview \A"; 
+white-space: pre;
+font-weight: bold; 
 }
-/* Safari 6.1+ */
-.context   {-webkit-order: 1;}
-.prereq  {-webkit-order: 2;}
-.steps {-webkit-order: 3;}
-
-/* Standard syntax */
-.context   {order: 1;}
-.prereq  {order: 2;}
-.steps {order: 3;}
-
 .prereq::before { 
 content: "Prerequisites \A"; 
 white-space: pre;
