@@ -141,7 +141,7 @@ header h1 span.ph {
 }
 
 /*Add Overview caption*/
-.context:empty:before { 
+.context:not(empty):before { 
 content: "Overview \A"; 
 white-space: pre;
 font-weight: bold; 
