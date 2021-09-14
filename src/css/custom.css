@@ -146,14 +146,14 @@ header h1 span.ph {
 	flex-flow: column;
 }
 /* Safari 6.1+ */
-div.context   {-webkit-order: 1;}
-div.prereq  {-webkit-order: 2;}
-div.steps {-webkit-order: 3;}
+.context   {-webkit-order: 1;}
+.prereq  {-webkit-order: 2;}
+.steps {-webkit-order: 3;}
 
 /* Standard syntax */
-div.context   {order: 1;}
-div.prereq  {order: 2;}
-div.steps {order: 3;}
+.context   {order: 1;}
+.prereq  {order: 2;}
+.steps {order: 3;}
 
 .prereq::before { 
 content: "Prerequisites \A"; 
