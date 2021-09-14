@@ -139,7 +139,22 @@ header h1 span.ph {
 .container ul li {
   text-indent: 0;
 }
+/*Order of Prereq Start*/
+.article {
+	display:flex;
+        flex-flow: column;
+}
+.context {
+   order:2;
+ }
+.prereq {
+   order:3;
+}
 
+.steps {
+   order:4;
+}
+/*Order of Prereq End*/
 .prereq::before { 
 content: "Prerequisites \A"; 
 white-space: pre;
@@ -154,6 +169,8 @@ margin-left: -32px;
 display: inline-block;
 margin-top: 10px;
 }
+
+
 
 .menu__list li a {
   font-size: 14px;
