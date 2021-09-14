@@ -155,6 +155,16 @@ display: inline-block;
 margin-top: 10px;
 }
 
+/*Add Overview caption*/
+.context::before { 
+content: "Overview \A"; 
+white-space: pre;
+font-weight: bold; 
+margin-left: -32px;
+display: inline-block;
+margin-top: 10px;
+}
+
 .menu__list li a {
   font-size: 14px;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif !important;  
