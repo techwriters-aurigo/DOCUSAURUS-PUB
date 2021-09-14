@@ -140,19 +140,20 @@ header h1 span.ph {
   text-indent: 0;
 }
 /*Order of Prereq Start*/
-.article {
+article {
+	
 	display:flex;
         flex-flow: column;
 }
 .context {
-   order:2;
+   order:1;
  }
 .prereq {
-   order:3;
+   order:2;
 }
 
 .steps {
-   order:4;
+   order:3;
 }
 /*Order of Prereq End*/
 .prereq::before { 
