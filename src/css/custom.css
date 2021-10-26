@@ -89,6 +89,11 @@ body {
 	font-size: 14px !important;
 }
 
+b.navbar__title {
+font-size: 21px !important;
+	color: #525d6d;
+}
+
 table.table ol > li {
 list-style-type: numeric;
 }
