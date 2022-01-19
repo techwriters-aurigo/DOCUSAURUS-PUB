@@ -83,6 +83,11 @@ code {
   white-space: pre-wrap;
 }
 
+/*Sidebar*/
+li.theme-doc-sidebar-item-link-level-3 a {
+	font-size: 12px;
+}
+
 /*------- Updated css Bharathi-----------*/
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
