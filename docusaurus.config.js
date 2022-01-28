@@ -87,5 +87,13 @@ module.exports = {
       },
     ],
   ],
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [// To enable the local search functionality, uncomment the following code:
+  /* [require.resolve('@cmfcmf/docusaurus-search-local'), {
+    indexDocs: true,
+    docsRouteBasePath: '/',
+    indexDocSidebarParentCategories: 3,
+    indexPages: false,
+    language: "en"
+    }]*/
+  ],
 };
