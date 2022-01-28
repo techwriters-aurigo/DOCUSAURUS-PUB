@@ -14,7 +14,6 @@
     "@docusaurus/core": "latest",
     "@docusaurus/preset-classic": "latest",
     "@mdx-js/react": "latest",
-    "@cmfcmf/docusaurus-search-local": "latest",
     "clsx": "latest",
     "react": "latest",
     "react-dom": "latest"
